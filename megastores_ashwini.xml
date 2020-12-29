@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+
+<test thread-count="2" verbose="2" name="add_multiple_merchant_product_into_cart_from_login">
+   <classes>
+     <class name="megastores.add_multiple_merchant_product_into_cart_from_login"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Add_multiple_merchant_products_into_cart_guest">
+   <classes>
+     <class name="megastores.Add_multiple_merchant_products_into_cart_guest"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Add_to_fav_login">
+   <classes>
+     <class name="megastores.Add_to_fav_login"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Addtofav_guest">
+   <classes>
+     <class name="megastores.Addtofav_guest"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Blog_post">
+   <classes>
+     <class name="megastores.Blog_post"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="featured_segment">
+   <classes>
+     <class name="megastores.featured_segment"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Filters">
+   <classes>
+     <class name="megastores.Filters"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Goto_artisans_and_producers_page_goto_shrujan_detail_view_from_here">
+   <classes>
+     <class name="megastores.Goto_artisans_and_producers_page_goto_shrujan_detail_view_from_here"/>
+   </classes>
+ </test>
+  
+ <test thread-count="1" verbose="2" name="place_order_login_withcondition">
+   <classes>
+     <class name="megastores.place_order_login_withcondition"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="product_review_thumb_login ">
+   <classes>
+     <class name="megastores.product_review_thumb_login"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="product_reviewt_thumb_guest">
+   <classes>
+     <class name="megastores.product_reviewt_thumb_guest"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Quick_view_guest">
+   <classes>
+     <class name="megastores.Quick_view_guest"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Quick_view_login">
+   <classes>
+     <class name="megastores.Quick_view_login"/>
+   </classes>
+ </test>
+ 
+ <test thread-count="1" verbose="2" name="Registration">
+   <classes>
+     <class name="megastores.Registration"/>
+   </classes>
+ </test>
+ 
+</suite> 

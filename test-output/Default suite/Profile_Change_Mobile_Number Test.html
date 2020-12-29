@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>TestNG:  Profile_Change_Mobile_Number Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Profile_Change_Mobile_Number Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 12 15:45:43 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>207 seconds (207260 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.Go_to_Change_mobile_number()'><b>Go_to_Change_mobile_number</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-283690914" onClick='toggleBox("Output-283690914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-283690914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-283690914">
+Login link clicked successfully<br/>
+username entered<br/>
+password entered<br/>
+submit clicked successfully<br/>
+Login successfull<br/>
+My Account clicked successfully<br/>
+Phone icon clicked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.empty_field()'><b>empty_field</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-2139703919" onClick='toggleBox("Output-2139703919", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2139703919" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2139703919">
+Test Passed: Not allowing the user to submit if all field is empty.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.fifteen_numbers()'><b>fifteen_numbers</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-561243349" onClick='toggleBox("Output-561243349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-561243349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-561243349">
+Test Passed: Allowing only number with minimum length 10 and leading user to OTP screen<br/>
+Test Passed: Will not allow user to submit without OTP<br/>
+Test Passed: Will not allow user to submit Invalid OTP<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.four_alphabets()'><b>four_alphabets</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-592987198" onClick='toggleBox("Output-592987198", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-592987198" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592987198">
+Will not allow the user to add only 4 alphabets since minimum is 10 characters<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.four_numbers()'><b>four_numbers</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-296121376" onClick='toggleBox("Output-296121376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-296121376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-296121376">
+Test Passed: Not allowing the user to enter less then 10 characters<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.phone_number_exist()'><b>phone_number_exist</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-685452027" onClick='toggleBox("Output-685452027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-685452027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-685452027">
+Test Passed: Not allowing the user to submit if all field is empty.<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.sixteen_numbers()'><b>sixteen_numbers</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-1580467617" onClick='toggleBox("Output-1580467617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1580467617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1580467617">
+Test Passed: Not allowing the user to enter more then 15 characters<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.ten_alphabets()'><b>ten_alphabets</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-835006543" onClick='toggleBox("Output-835006543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-835006543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-835006543">
+Test Passed: Not allowing user to add alphabets even if we enter 10 alphabets.<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+<tr>
+<td title='megastores.Profile_Change_Mobile_Number.ten_numbers()'><b>ten_numbers</b><br>Test class: megastores.Profile_Change_Mobile_Number<br/>
+<a href="#Output-319061309" onClick='toggleBox("Output-319061309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319061309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319061309">
+Test Passed: Allowing only number with minimum length 10 and leading user to OTP screen<br/>
+Test Passed: Will not allow user to submit without OTP<br/>
+Test Passed: Will not allow user to submit Invalid OTP<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>megastores.Profile_Change_Mobile_Number@e320068</td></tr>
+</table><p>
+</body>
+</html>

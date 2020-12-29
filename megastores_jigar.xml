@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+
+<listeners>
+	<listener class-name="megastores.AnnotationTransformer">
+	</listener>
+</listeners>
+
+<test thread-count="7" verbose="2" name="Login Test">
+    <classes>
+      <class name="megastores.Login"/>
+    </classes>
+  </test>
+  
+  <test thread-count="7" verbose="2" name="Forgot_Password Test">
+    <classes>
+      <class name="megastores.Forgot_Password"/>
+    </classes>
+  </test>
+  
+  <test thread-count="4" verbose="2" name="Forgot_Username Test">
+    <classes>
+      <class name="megastores.Forgot_Username"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" verbose="2" name="Change_Profile_Info Test">
+    <classes>
+      <class name="megastores.Change_Profile_Info"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" verbose="2" name="Change_Email Test">
+    <classes>
+      <class name="megastores.Change_Email"/>
+    </classes>
+  </test>
+  
+  <test thread-count="8" verbose="2" name="Change_Password Test">
+    <classes>
+      <class name="megastores.Change_Password"/>
+    </classes>
+  </test>
+  
+  <test thread-count="9" verbose="2" name="Profile_Change_Mobile_Number Test">
+    <classes>
+      <class name="megastores.Profile_Change_Mobile_Number"/>
+    </classes>
+  </test>
+  
+  <test thread-count="4" verbose="2" name="Change_Profile_Picture Test">
+    <classes>
+      <class name="megastores.Change_Profile_Picture"/>
+    </classes>
+  </test>
+  
+  <test thread-count="4" verbose="2" name="Goto_Productdetailview Test">
+    <classes>
+      <class name="megastores.Goto_productdetailveiw"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" verbose="2" name="My_Order Test">
+    <classes>
+      <class name="megastores.My_Order"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" verbose="2" name="Product_Listview_Left_Nav Test">
+    <classes>
+      <class name="megastores.Product_Listview_Left_Nav"/>
+    </classes>
+  </test>
+  
+   <test thread-count="3" verbose="2" name="Search_Goto_Detailview Test">
+    <classes>
+      <class name="megastores.Search_Goto_Detailview"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" verbose="2" name="Top_Category Test">
+    <classes>
+      <class name="megastores.Top_Category"/>
+    </classes>
+  </test>
+  
+  <test thread-count="9" verbose="2" name="Address Test">
+    <classes>
+      <class name="megastores.Address"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" verbose="2" name="Resend_Email_Verification_Link Test">
+    <classes>
+      <class name="megastores.Resend_Email_Verification_Link"/>
+    </classes>
+  </test>
+  </suite>

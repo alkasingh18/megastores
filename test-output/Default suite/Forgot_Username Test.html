@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Forgot_Username Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Forgot_Username Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 12 15:35:38 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>128 seconds (128672 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='megastores.Forgot_Username.fgt_user_non_existing_username()'><b>fgt_user_non_existing_username</b><br>Test class: megastores.Forgot_Username<br/>
+<a href="#Output-476709123" onClick='toggleBox("Output-476709123", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-476709123" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-476709123">
+Non-Existing Username: Login clicked successfully<br/>
+Non-Existing Username: Forgot Password Link clicked successfully<br/>
+Non-Existing Username: Forgot Username Link clicked successfully<br/>
+Test Passed: Non-Existing Username: Giving User Not found message if the email id does not exist<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>megastores.Forgot_Username@10bbd20a</td></tr>
+<tr>
+<td title='megastores.Forgot_Username.fgt_usr_empty_email()'><b>fgt_usr_empty_email</b><br>Test class: megastores.Forgot_Username<br/>
+<a href="#Output-1479162649" onClick='toggleBox("Output-1479162649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479162649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479162649">
+Empty Email: Login clicked successfully<br/>
+Empty email: Forgot Password Link clicked successfully<br/>
+Empty email: Forgot Username Link clicked successfully<br/>
+Test Passed: Empty email: Displaying message as Email is required and will not Send<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>megastores.Forgot_Username@10bbd20a</td></tr>
+<tr>
+<td title='megastores.Forgot_Username.fgt_usr_existing_username()'><b>fgt_usr_existing_username</b><br>Test class: megastores.Forgot_Username<br/>
+<a href="#Output-1138190994" onClick='toggleBox("Output-1138190994", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1138190994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1138190994">
+Existing Username: Login clicked successfully<br/>
+Existing Username: Forgot Password Link clicked successfully<br/>
+Existing Username: Forgot Username Link clicked successfully<br/>
+Test Passed : Username successfully sent to email id.<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>megastores.Forgot_Username@10bbd20a</td></tr>
+<tr>
+<td title='megastores.Forgot_Username.fgt_usr_invalid_email()'><b>fgt_usr_invalid_email</b><br>Test class: megastores.Forgot_Username<br/>
+<a href="#Output-659545766" onClick='toggleBox("Output-659545766", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-659545766" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-659545766">
+Invalid Email: Login clicked successfully<br/>
+Invalid email: Forgot Password Link clicked successfully<br/>
+Invalid email: Forgot Username Link clicked successfully<br/>
+Test Passed: Invalid email: Empty email: Displaying message please enter a valid email address.<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>megastores.Forgot_Username@10bbd20a</td></tr>
+</table><p>
+</body>
+</html>

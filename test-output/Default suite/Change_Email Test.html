@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>TestNG:  Change_Email Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Change_Email Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 12 15:39:47 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>129 seconds (129099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='megastores.Change_Email.Go_to_change_email()'><b>Go_to_change_email</b><br>Test class: megastores.Change_Email<br/>
+<a href="#Output-115816820" onClick='toggleBox("Output-115816820", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-115816820" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-115816820">
+Login clicked<br/>
+Username added<br/>
+Password added<br/>
+Submit clicked<br/>
+Login successfull<br/>
+My Account Clicked successfully<br/>
+Test Passed: User has been directed to change password screen successfully<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>megastores.Change_Email@1786dec2</td></tr>
+<tr>
+<td title='megastores.Change_Email.change_email_existing_id()'><b>change_email_existing_id</b><br>Test class: megastores.Change_Email<br/>
+<a href="#Output-1444095102" onClick='toggleBox("Output-1444095102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1444095102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444095102">
+Test Passed: Not allowing the user to change email if it already exist<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>megastores.Change_Email@1786dec2</td></tr>
+<tr>
+<td title='megastores.Change_Email.change_email_invalid_email()'><b>change_email_invalid_email</b><br>Test class: megastores.Change_Email<br/>
+<a href="#Output-1409499930" onClick='toggleBox("Output-1409499930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1409499930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1409499930">
+Test Passed : Giving invalid email message if email format is not proper without including @<br/>
+Test Passed : Giving invalid email message if email format is not proper with including @ and domain name<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>megastores.Change_Email@1786dec2</td></tr>
+<tr>
+<td title='megastores.Change_Email.change_email_valid_id()'><b>change_email_valid_id</b><br>Test class: megastores.Change_Email<br/>
+<a href="#Output-955979034" onClick='toggleBox("Output-955979034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-955979034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-955979034">
+Test passed : Got message that the verification link is sent and also changed email is displayed in email text field<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>megastores.Change_Email@1786dec2</td></tr>
+<tr>
+<td title='megastores.Change_Email.chng_email_empty_mail_id()'><b>chng_email_empty_mail_id</b><br>Test class: megastores.Change_Email<br/>
+<a href="#Output-1321185349" onClick='toggleBox("Output-1321185349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1321185349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1321185349">
+Test Passed : Not allowing user to change email if it is empty<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>megastores.Change_Email@1786dec2</td></tr>
+</table><p>
+</body>
+</html>

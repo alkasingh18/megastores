@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="PartnerWithUs Test(failed)">
+    <classes>
+      <class name="megastores.PartnerWithUs">
+        <methods>
+          <include name="quit"/>
+          <include name="InvalidShopName"/>
+        </methods>
+      </class> <!-- megastores.PartnerWithUs -->
+    </classes>
+  </test> <!-- PartnerWithUs Test(failed) -->
+  <test thread-count="5" name="MerchantRegistration Test(failed)">
+    <classes>
+      <class name="megastores.MerchantRegistration">
+        <methods>
+          <include name="EmptyFields"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- megastores.MerchantRegistration -->
+    </classes>
+  </test> <!-- MerchantRegistration Test(failed) -->
+  <test thread-count="5" name="Forgot_Password Test(failed)">
+    <classes>
+      <class name="megastores.Forgot_Password">
+        <methods>
+          <include name="browser_launch"/>
+          <include name="existing_email_id"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- megastores.Forgot_Password -->
+    </classes>
+  </test> <!-- Forgot_Password Test(failed) -->
+  <test thread-count="5" name="Change_Profile_Picture Test(failed)">
+    <classes>
+      <class name="megastores.Change_Profile_Picture">
+        <methods>
+          <include name="browser_launch"/>
+          <include name="quit"/>
+          <include name="edit_invalid_profile_pic"/>
+        </methods>
+      </class> <!-- megastores.Change_Profile_Picture -->
+    </classes>
+  </test> <!-- Change_Profile_Picture Test(failed) -->
+  <test thread-count="5" name="Goto_Productdetailview Test(failed)">
+    <classes>
+      <class name="megastores.Goto_productdetailveiw">
+        <methods>
+          <include name="go_to_detailview_shopby"/>
+          <include name="start_browser"/>
+          <include name="goto_detailview_cart"/>
+          <include name="goto_detailview_Dashboard"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- megastores.Goto_productdetailveiw -->
+    </classes>
+  </test> <!-- Goto_Productdetailview Test(failed) -->
+  <test thread-count="5" name="My_Order Test(failed)">
+    <classes>
+      <class name="megastores.My_Order">
+        <methods>
+          <include name="quit"/>
+          <include name="place_order"/>
+          <include name="view_latest_order"/>
+          <include name="browser_launch"/>
+        </methods>
+      </class> <!-- megastores.My_Order -->
+    </classes>
+  </test> <!-- My_Order Test(failed) -->
+  <test thread-count="5" name="Product_Listview_Left_Nav Test(failed)">
+    <classes>
+      <class name="megastores.Product_Listview_Left_Nav">
+        <methods>
+          <include name="browser_launch"/>
+          <include name="click_load_more"/>
+          <include name="quit"/>
+          <include name="go_to_listview"/>
+        </methods>
+      </class> <!-- megastores.Product_Listview_Left_Nav -->
+    </classes>
+  </test> <!-- Product_Listview_Left_Nav Test(failed) -->
+  <test thread-count="5" name="Address Test(failed)">
+    <classes>
+      <class name="megastores.Address">
+        <methods>
+          <include name="valid_add_address_default"/>
+          <include name="browser_launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- megastores.Address -->
+    </classes>
+  </test> <!-- Address Test(failed) -->
+  <test thread-count="5" name="Add_to_fav_login(failed)">
+    <classes>
+      <class name="megastores.Add_to_fav_login">
+        <methods>
+          <include name="quit"/>
+          <include name="add_prod_fav_login"/>
+          <include name="Goto_productdetailview"/>
+          <include name="browser_launched"/>
+        </methods>
+      </class> <!-- megastores.Add_to_fav_login -->
+    </classes>
+  </test> <!-- Add_to_fav_login(failed) -->
+  <test thread-count="5" name="Addtofav_guest(failed)">
+    <classes>
+      <class name="megastores.Addtofav_guest">
+        <methods>
+          <include name="favlogin"/>
+          <include name="driver_quit"/>
+          <include name="browser_launched"/>
+        </methods>
+      </class> <!-- megastores.Addtofav_guest -->
+    </classes>
+  </test> <!-- Addtofav_guest(failed) -->
+  <test thread-count="5" name="Filters(failed)">
+    <classes>
+      <class name="megastores.Filters">
+        <methods>
+          <include name="quit"/>
+          <include name="filter"/>
+          <include name="browser_launched"/>
+        </methods>
+      </class> <!-- megastores.Filters -->
+    </classes>
+  </test> <!-- Filters(failed) -->
+  <test thread-count="5" name="place_order_login_withcondition(failed)">
+    <classes>
+      <class name="megastores.place_order_login_withcondition">
+        <methods>
+          <include name="browser_launched"/>
+          <include name="place_order_login"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- megastores.place_order_login_withcondition -->
+    </classes>
+  </test> <!-- place_order_login_withcondition(failed) -->
+  <test thread-count="5" name="product_review_thumb_login (failed)">
+    <classes>
+      <class name="megastores.product_review_thumb_login">
+        <methods>
+          <include name="vote_review"/>
+          <include name="browser_launched"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- megastores.product_review_thumb_login -->
+    </classes>
+  </test> <!-- product_review_thumb_login (failed) -->
+  <test thread-count="5" name="product_reviewt_thumb_guest(failed)">
+    <classes>
+      <class name="megastores.product_reviewt_thumb_guest">
+        <methods>
+          <include name="quit"/>
+          <include name="vote_review_guest"/>
+        </methods>
+      </class> <!-- megastores.product_reviewt_thumb_guest -->
+    </classes>
+  </test> <!-- product_reviewt_thumb_guest(failed) -->
+  <test thread-count="5" name="Registration(failed)">
+    <classes>
+      <class name="megastores.Registration">
+        <methods>
+          <include name="quit"/>
+          <include name="register"/>
+          <include name="browser_launched"/>
+        </methods>
+      </class> <!-- megastores.Registration -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
